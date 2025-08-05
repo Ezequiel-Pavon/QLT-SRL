@@ -18,27 +18,27 @@
   const benefitList: BenefitsProps[] = [
     {
       icon: "blocks",
-      title: "Build Brand Trust",
+      title: "Equipo Profesional",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+        "Personal entrenado y certificado que utiliza técnicas avanzadas para garantizar una limpieza profunda y segura en cada espacio.",
     },
     {
       icon: "lineChart",
-      title: "More Leads",
+      title: "Resultados Medibles",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+        "Aplicamos protocolos estandarizados y recopilamos tu feedback para asegurar un servicio de alta calidad y total satisfacción.",
     },
     {
       icon: "wallet",
-      title: "Higher Conversions",
+      title: "Precios Transparentes",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+        "Presupuestos claros y sin cargos ocultos, adaptados a tus necesidades y frecuencia de limpieza, con excelente relación costo-beneficio.",
     },
     {
       icon: "sparkle",
-      title: "Test Marketing Ideas",
+      title: "Compromiso Ecológico",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+        "Utilizamos productos biodegradables y prácticas amigables con el medio ambiente, cuidando tu salud y el entorno.",
     },
   ];
 
@@ -55,14 +55,12 @@
 <section id="benefits" class="container py-24 sm:py-32">
   <div class="grid lg:grid-cols-2 place-items-center lg:gap-24">
     <div>
-      <h2 class="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
+      <h2 class="text-lg text-primary mb-2 tracking-wider">Beneficios de QLT</h2>
       <h2 class="text-3xl md:text-4xl font-bold mb-4">
-        Your Shortcut to Success
+        Espacios Impecables, Clientes Felices
       </h2>
       <p class="text-xl text-muted-foreground mb-8">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus
-        reprehenderit architecto rerum similique facere odit deleniti
-        necessitatibus quo quae.
+        En QLT Servicios de Limpieza nos comprometemos a cuidar cada rincón de tu hogar u oficina con profesionales certificados, productos ecológicos y procesos garantizados. Tu satisfacción es nuestra prioridad.
       </p>
     </div>
 

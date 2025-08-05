@@ -14,32 +14,33 @@
 
   const FAQList: FAQProps[] = [
     {
-      question: "Is this template free?",
-      answer: "Yes. It is a free Shadcn/Svelte template.",
+      question: "¿Qué tipo de servicios de limpieza ofrecen?",
+      answer:
+        "Ofrecemos limpieza para hogares, oficinas, consorcios, locales comerciales e industrias. También realizamos limpiezas profundas, post-obra y de mantenimiento regular.",
       value: "item-1",
     },
     {
-      question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+      question: "¿Debo proporcionar los productos de limpieza?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+        "No es necesario. Nuestro equipo lleva todos los productos y herramientas necesarias. Utilizamos insumos profesionales y certificados.",
       value: "item-2",
     },
     {
-      question:
-        "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+      question: "¿Cómo se realiza la cotización?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+        "Podemos coordinar una visita sin cargo o solicitarte algunos datos e imágenes del lugar para enviar una cotización personalizada.",
       value: "item-3",
     },
     {
-      question: "Excepteur sint occaecat cupidata non proident sunt?",
-      answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      question: "¿Puedo contratar un servicio único o tiene que ser mensual?",
+      answer:
+        "Podés contratar tanto limpiezas puntuales como servicios recurrentes según tus necesidades.",
       value: "item-4",
     },
     {
-      question:
-        "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-      answer: "consectetur adipisicing elit. Sint labore.",
+      question: "¿Qué pasa si no estoy conforme con el servicio?",
+      answer:
+        "Nos comprometemos con la satisfacción del cliente. Si algo no salió como esperabas, lo resolvemos rápidamente sin costo adicional.",
       value: "item-5",
     },
   ];
@@ -47,9 +48,9 @@
 
 <section id="faq" class="container md:w-[700px] py-24 sm:py-32">
   <div class="text-center mb-8">
-    <h2 class="text-lg text-primary text-center mb-2 tracking-wider">FAQS</h2>
+    <h2 class="text-lg text-primary text-center mb-2 tracking-wider">PREGUNTAS FRECUENTES</h2>
     <h2 class="text-3xl md:text-4xl text-center font-bold">
-      Common Questions
+      Todo lo que necesitás saber
     </h2>
   </div>
 
@@ -67,9 +68,9 @@
   </Accordion>
 
   <h3 class="font-medium mt-4">
-    Still have questions?
+    Sigues teniendo dudas o querés más información?
     <a href="#contact" class="text-muted-foreground">
-      <span class="underline">Contact us</span>
+      <span class="underline">Contacta con nosotros</span>
     </a>
   </h3>
 </section>

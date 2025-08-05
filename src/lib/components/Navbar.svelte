@@ -16,7 +16,7 @@
   import { Button, buttonVariants } from "$lib/components/ui/button";
   import { Separator } from "$lib/components/ui/separator";
   import { ChevronsDown, Menu } from "lucide-svelte";
-  import GithubIcon from "$lib/icons/GithubIcon.svelte";
+  // import GithubIcon from "$lib/icons/GithubIcon.svelte";
   import ToggleTheme from "$lib/components/ToggleTheme.svelte";
 
   interface RouteProps {
@@ -138,15 +138,6 @@
 
   <div class="hidden lg:flex">
     <ToggleTheme />
-    <Button size="sm" variant="ghost" aria-label="View on GitHub">
-      <a
-        aria-label="View on GitHub"
-        href="https://github.com/zxce3/shadcn-sveltekit-landing-page.git"
-        target="_blank"
-      >
-        <GithubIcon class_="size-5" />
-      </a>
-    </Button>
   </div>
 </header>
 

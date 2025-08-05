@@ -9,36 +9,30 @@
       <div class="col-span-full xl:col-span-2">
         <a href="/" class="flex font-bold items-center">
           <ChevronsDown class="bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-          <h3 class="text-2xl">Shadcn-Svelte</h3>
+          <h3 class="text-2xl">NombreEmpresa</h3>
         </a>
       </div>
 
       <div class="flex flex-col gap-2">
-        <h3 class="font-bold text-lg">Contact</h3>
-        <div><a href="https://github.com" class="opacity-60 hover:opacity-100">Github</a></div>
-        <div><a href="https://twitter.com" class="opacity-60 hover:opacity-100">Twitter</a></div>
-        <div><a href="https://instagram.com" class="opacity-60 hover:opacity-100">Instagram</a></div>
+        <h3 class="font-bold text-lg">Contacto</h3>
+        <div><a href="#contact" class="opacity-60 hover:opacity-100">Formulario</a></div>
+        <div><a href="mailto:info@empresa.com" class="opacity-60 hover:opacity-100">info@empresa.com</a></div>
+        <div><a href="tel:+541112345678" class="opacity-60 hover:opacity-100">+54 11 1234-5678</a></div>
       </div>
 
       <div class="flex flex-col gap-2">
-        <h3 class="font-bold text-lg">Platforms</h3>
-        <div><span class="opacity-60 hover:opacity-100 cursor-default">iOS</span></div>
-        <div><span class="opacity-60 hover:opacity-100 cursor-default">Android</span></div>
-        <div><span class="opacity-60 hover:opacity-100 cursor-default">Web</span></div>
+        <h3 class="font-bold text-lg">Secciones</h3>
+        <div><a href="#services" class="opacity-60 hover:opacity-100">Servicios</a></div>
+        <div><a href="#how-it-works" class="opacity-60 hover:opacity-100">Cómo trabajamos</a></div>
+        <div><a href="#benefits" class="opacity-60 hover:opacity-100">Beneficios</a></div>
+        <div><a href="#features" class="opacity-60 hover:opacity-100">Caracteristicas</a></div>
+        <div><a href="#faq" class="opacity-60 hover:opacity-100">Preguntas frecuentes</a></div>
       </div>
 
       <div class="flex flex-col gap-2">
-        <h3 class="font-bold text-lg">Help</h3>
-        <div><a href="#contact" class="opacity-60 hover:opacity-100">Contact Us</a></div>
-        <div><a href="#faq" class="opacity-60 hover:opacity-100">FAQ</a></div>
-        <div><a href="#contact" class="opacity-60 hover:opacity-100">Feedback</a></div>
-      </div>
-
-      <div class="flex flex-col gap-2">
-        <h3 class="font-bold text-lg">Socials</h3>
-        <div><a href="https://twitch.tv" class="opacity-60 hover:opacity-100">Twitch</a></div>
-        <div><a href="https://discord.com" class="opacity-60 hover:opacity-100">Discord</a></div>
-        <div><a href="https://dribbble.com" class="opacity-60 hover:opacity-100">Dribbble</a></div>
+        <h3 class="font-bold text-lg">Redes Sociales</h3>
+        <div><a href="https://www.instagram.com/tuempresa" class="opacity-60 hover:opacity-100" target="_blank">Instagram</a></div>
+        <div><a href="https://www.linkedin.com/company/tuempresa" class="opacity-60 hover:opacity-100" target="_blank">LinkedIn</a></div>
       </div>
     </div>
 
@@ -46,14 +40,23 @@
     
     <section>
       <h3>
-        &copy; 2024 Designed and developed by
+        &copy; 2025 Diseñado y desarrollado por
         <a
           target="_blank"
-          href="https://github.com/leoMirandaa"
+          href="https://www.linkedin.com/in/eduardo-ezequiel-pavón"
           class="text-primary transition-all border-primary hover:border-b-2"
           rel="noreferrer"
         >
-          Leo Miranda
+          Ezequiel Pavon
+        </a>
+        y
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/octavio-nicolas-pastorive-644796306"
+          class="text-primary transition-all border-primary hover:border-b-2"
+          rel="noreferrer"
+        >
+          Octavio Pastorive
         </a>
       </h3>
     </section>

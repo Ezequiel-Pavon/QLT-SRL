@@ -21,39 +21,39 @@
   const featureList: FeaturesProps[] = [
     {
       icon: "tabletSmartphone",
-      title: "Mobile Friendly",
+      title: "Reservá en un Clic",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+        "Nuestro sistema online te permite agendar tu limpieza cuando y desde donde quieras, sin trámites ni demoras.",
     },
     {
       icon: "badgeCheck",
-      title: "Social Proof",
+      title: "Calidad Certificada",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+        "Contamos con sellos y protocolos de higiene avalados para garantizarte un servicio profesional y estandarizado.",
     },
     {
       icon: "goal",
-      title: "Targeted Content",
+      title: "Planes Personalizados",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+        "Adaptamos cada servicio a tus necesidades: frecuencia, tipo de espacio y nivel de limpieza deseado.",
     },
     {
       icon: "pictureInPicture",
-      title: "Strong Visuals",
+      title: "Inspección Digital",
       description:
-        "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+        "Recibí reportes con fotos antes y después de cada trabajo para que veas los resultados en tiempo real.",
     },
     {
       icon: "mousePointerClick",
-      title: "Clear CTA",
+      title: "Atención 24/7",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+        "Nuestro equipo de soporte y coordinación está disponible todo el día para resolver dudas o cambios de turno.",
     },
     {
       icon: "newspaper",
-      title: "Clear Headline",
+      title: "Compromiso Verde",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+        "Usamos productos biodegradables y prácticas sostenibles que cuidan tu salud y el medio ambiente.",
     },
   ];
 
@@ -71,17 +71,15 @@
 
 <section id="features" class="container py-24 sm:py-32">
   <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-    Features
+    Características
   </h2>
 
   <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-    What Makes Us Different
+    ¿Qué nos hace únicos?
   </h2>
 
   <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-    fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-    facere tenetur.
+    En QLT Servicios de Limpieza combinamos tecnología, profesionales certificados y productos ecológicos para ofrecer una experiencia de limpieza total y sin complicaciones.
   </h3>
 
   <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
